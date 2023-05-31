@@ -1,0 +1,9 @@
+create database trabalho2;
+use trabalho2;
+
+create table usuarios(
+	id int not null primary key auto_increment,
+	nome varchar (255),
+	email varchar(255),
+    	senha varchar(100)
+);
